@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-20 13:53+0000\n"
+"POT-Creation-Date: 2018-06-20 15:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,15 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.behavior.flag\n"
 
+#: ../behaviors/configure.zcml:19
+msgid "Flagged Object"
+msgstr ""
+
 #: ../configure.zcml:29
 msgid "Installs the collective.behavior.flag add-on."
 msgstr ""
 
-#: ../behaviors/flaggedobject.py:20
+#: ../behaviors/flaggedobject.py:28
 msgid "Mark this object as special"
 msgstr ""
 
@@ -29,9 +33,13 @@ msgstr ""
 msgid "Metadata"
 msgstr ""
 
-#: ../behaviors/flaggedobject.py:19
+#: ../behaviors/flaggedobject.py:27
 #: ../profiles/default/registry.xml
 msgid "Special object"
+msgstr ""
+
+#: ../behaviors/configure.zcml:19
+msgid "This behavior provides a boolean flag to highlight/select certain items of a content type."
 msgstr ""
 
 #: ../profiles/default/registry.xml

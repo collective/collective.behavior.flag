@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-20 13:53+0000\n"
+"POT-Creation-Date: 2018-06-20 15:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Zest Software <info@zestsoftware.nl>\n"
 "Language-Team: Dutch <LL@li.org>\n"
@@ -15,11 +15,15 @@ msgstr ""
 "Domain: collective.behavior.flag\n"
 "X-Is-Fallback-For: nl-be nl-nl\n"
 
+#: ../behaviors/configure.zcml:19
+msgid "Flag Object"
+msgstr "Markeer als speciaal item"
+
 #: ../configure.zcml:29
 msgid "Installs the collective.behavior.flag add-on."
 msgstr ""
 
-#: ../behaviors/flaggedobject.py:20
+#: ../behaviors/flaggedobject.py:28
 msgid "Mark this object as special"
 msgstr "Markeer dit item als speciaal"
 
@@ -27,10 +31,14 @@ msgstr "Markeer dit item als speciaal"
 msgid "Metadata"
 msgstr "Metadata"
 
-#: ../behaviors/flaggedobject.py:19
+#: ../behaviors/flaggedobject.py:27
 #: ../profiles/default/registry.xml
 msgid "Special object"
 msgstr "Speciaal item"
+
+#: ../behaviors/configure.zcml:19
+msgid "This behavior provides a boolean flag to highlight/select certain items of a content type."
+msgstr ""
 
 #: ../profiles/default/registry.xml
 msgid "This object is marked as special"

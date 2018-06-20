@@ -44,7 +44,9 @@
 
   <!-- -*- extra stuff goes here -*- -->
 
-    <include package=".behaviors" />
+  <include package=".behaviors" />
 
-        
+  <adapter name="flaggedobject" factory=".indexer.flaggedobject" />
+
+
 </configure>
