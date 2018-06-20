@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="collective.behavior.flag">
+<!-- -*- extra stuff goes here -*- -->
+
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.flaggableobject" remove="True">
+  </records>
+
+
+
+</registry>

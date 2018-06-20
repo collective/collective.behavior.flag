@@ -1,21 +1,19 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-06-20 13:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Zest Software <info@zestsoftware.nl>\n"
+"Language-Team: Dutch <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: nl\n"
+"Language-Name: Nederlands\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.behavior.flag\n"
+"X-Is-Fallback-For: nl-be nl-nl\n"
 
 #: ../configure.zcml:29
 msgid "Installs the collective.behavior.flag add-on."
@@ -23,20 +21,20 @@ msgstr ""
 
 #: ../behaviors/flaggedobject.py:20
 msgid "Mark this object as special"
-msgstr ""
+msgstr "Markeer dit item als speciaal"
 
 #: ../profiles/default/registry.xml
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #: ../behaviors/flaggedobject.py:19
 #: ../profiles/default/registry.xml
 msgid "Special object"
-msgstr ""
+msgstr "Speciaal item"
 
 #: ../profiles/default/registry.xml
 msgid "This object is marked as special"
-msgstr ""
+msgstr "Dit items is gemarkeerd als speciaal"
 
 #: ../configure.zcml:38
 msgid "Uninstalls the collective.behavior.flag add-on."

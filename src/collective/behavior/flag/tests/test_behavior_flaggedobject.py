@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from collective.behavior.flag.behaviors.flagged_object import IFlaggedObject
+from collective.behavior.flag.behaviors.flaggedobject import IFlaggedObject
 from collective.behavior.flag.testing import COLLECTIVE_BEHAVIOR_FLAG_INTEGRATION_TESTING  # noqa
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
@@ -18,13 +18,13 @@ class FlaggedObjectIntegrationTest(unittest.TestCase):
         self.portal = self.layer['portal']
         setRoles(self.portal, TEST_USER_ID, ['Manager'])
 
-    def test_behavior_flagged_object(self):
-        behavior = getUtility(IBehavior, 'collective.behavior.flag.flagged_object')
+    def test_behavior_flaggedobject(self):
+        behavior = getUtility(IBehavior, 'collective.behavior.flag.flaggedobject')
         self.assertEqual(
             behavior.marker,
             IFlaggedObject,
         )
-        behavior_name = 'collective.behavior.flag.behaviors.flagged_object.IFlaggedObject'
+        behavior_name = 'collective.behavior.flag.behaviors.flaggedobject.IFlaggedObject'
         behavior = getUtility(IBehavior, behavior_name)
         self.assertEqual(
             behavior.marker,

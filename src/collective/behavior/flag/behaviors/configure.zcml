@@ -10,12 +10,12 @@
     <!-- -*- extra stuff goes here -*- -->
 
     <plone:behavior
-        name="collective.behavior.flag.flagged_object"
+        name="collective.behavior.flag.flaggedobject"
         title="FlaggedObject"
         description="This behavior provides a boolean flag to highlight/select certain items of a content type."
-        provides=".flagged_object.IFlaggedObject"
-        factory=".flagged_object.FlaggedObject"
-        marker=".flagged_object.IFlaggedObject"
+        provides=".flaggedobject.IFlaggableObject"
+        factory=".flaggedobject.FlaggableObject"
+        marker=".flaggedobject.IFlaggableObject"
         />
 
         
