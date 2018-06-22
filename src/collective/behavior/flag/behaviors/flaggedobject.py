@@ -26,6 +26,7 @@ class IFlaggableObject(model.Schema):
     flaggedobject = schema.Bool(
         title=_(u'Special object'),
         description=_(u'Mark this object as special'),
+        default=False,
         required=False,
     )
 
