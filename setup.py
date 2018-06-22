@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.behavior.flag',
-    version='1.0a1',
+    version='1.0a3',
     description="Behavior to flag content items as special. Replaces collective.flag .",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
